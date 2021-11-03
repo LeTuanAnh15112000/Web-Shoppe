@@ -332,7 +332,7 @@ a.header__navbar-item-link{
     background-color: var(--while-color);
     border-radius: 5px;
     overflow: hidden;
-
+  
 
 }
 .auth-form__container{
@@ -343,7 +343,7 @@ a.header__navbar-item-link{
     align-items: center;
     justify-content: space-between;
     padding: 0 12px;
-    mt10
+   
 }
 
 .auth-form__heading{

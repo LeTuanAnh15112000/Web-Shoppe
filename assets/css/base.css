@@ -82,6 +82,8 @@ html{
     bottom: 0;
     display: flex;
     animation: info ease-in 0.2s;
+    z-index: 2;
+    display: none;
 }
 .modal__overlay{
     position: absolute;
