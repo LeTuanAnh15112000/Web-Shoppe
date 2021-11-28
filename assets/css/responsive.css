@@ -24,9 +24,11 @@
     .header__cart--list::before{
         display: none;
     }
-    .app-content{
+
+    /* .app-content{
         margin-top: calc(var(--header-height) + var(--header-sort-bar-height));
-    }
+    } */
+
     .header__cart--list::after {
         content: "";
         top: -27px;
@@ -54,6 +56,9 @@
     .header__cart {
         width: 80px;
         text-align: right;
+    }
+    .image-hidden{
+        display: none;
     }
    
   

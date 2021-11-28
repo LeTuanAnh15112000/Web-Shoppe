@@ -4,7 +4,8 @@
 }
 .header{
     height: (--header-height);
-    background-image: linear-gradient(0,#fe6433,#f53e2d);
+    /* background-image: linear-gradient(0,#fe6433,#f53e2d); */
+    background-color: #6495ed;
 }
 .header__navbar{
     display: flex;
@@ -131,7 +132,7 @@ a.header__navbar-item-link{
     content: "";
     position: absolute;
     height: 16px;
-    border-left: 2px solid #FB9086;
+    border-left: 2px solid #777272;
     right: -8px;
     top:50%;
     transform: translateY(-50%);
@@ -480,7 +481,7 @@ a.header__navbar-item-link{
 }
 /* thanh tiem kiem */
 .header__search{
-    height: 40px;
+    height: 34px;
     background-color: var(--while-color);
     border-radius: 2px;
     flex: 1;
@@ -503,7 +504,7 @@ a.header__navbar-item-link{
 /* .header__cart--wrap{
     /* padding: 0 18px; */
 
-} */
+ 
 .header__cart--wrap{
     padding: 0;
 }
@@ -622,7 +623,7 @@ a.header__navbar-item-link{
     margin: 12px 12px 12px 0;
 }
 .header__cart--view:hover{
-    background-color: #F05D41;
+    background-color: #8ec0fa;
 }
 /*khong co san pham */
 .header__cart--wrap:hover .header__cart--list{
@@ -687,7 +688,7 @@ a.header__navbar-item-link{
     padding: 0px 5px;
     top: -2px;
     right: -7px;
-    border: 2px solid #ee4d2d;
+    border: 2px solid #d5c8c6;
     
 }
 /* o search */
@@ -727,8 +728,8 @@ a.header__navbar-item-link{
     top: 2px;
 }
 .header__search--btn{
-    height: 34px;
-    background-color: var(--primary-color);
+    height: 30px;
+    background-color: var(--blu-color);
     border:none;
     outline: none;
     width: 60px;
@@ -736,7 +737,7 @@ a.header__navbar-item-link{
     margin-right: 3px;
 }
 .header__search--btn:hover{
-    background-color: #fb6445;
+    background-color: #8ca0f7;
     cursor: pointer;
 }
 .header__search--icon{
@@ -746,7 +747,7 @@ a.header__navbar-item-link{
 .header__search--option{
     position: absolute;
     right: 0;
-    top:calc(100% + 5px);
+    top:calc(100% + 3px);
     width: 130px;
     box-Shadow: 0 1px 2px #999;
     padding-left: 0;
@@ -1050,7 +1051,7 @@ a.header__navbar-item-link{
 
 .home-product-item:hover{
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05);
-    transform: translateY(-1px);
+    /* transform: translateY(-1px); */
 }
 .home-product-item__img{
     padding-top: 100%;
@@ -1065,8 +1066,8 @@ a.header__navbar-item-link{
     font-size: 1.3rem;
     font-weight: 400;
     color: var(--text-color);
-    line-height: 1.8rem;
-    height: 3.6rem;
+    line-height: 3rem;
+    height: 3rem;
     margin: 10px 10px 4px;
     overflow: hidden;
     display: block;
@@ -1180,7 +1181,7 @@ i.home-product-item__like--active{
     right: 0;
     width: 40px;
     height: 34px;
-    background-color: rgba(255, 216, 64, .94);
+    background-color: rgba(45, 10, 202, 0.94);
     text-align: center;
     border-top-right-radius: 2px;
 
@@ -1201,10 +1202,10 @@ i.home-product-item__like--active{
 .home-product-item__sale-off::after{
     position: absolute;
     right: 0;
-    bottom: -5px;
+    bottom: -4px;
     border-width: 0 20px 5px;
     border-style: solid;
-    border-color:transparent rgba(255, 216, 64, .94) transparent;
+    border-color:transparent rgba(45, 10, 202, 0.94) transparent;
     content: "";
 }
 .home-product__pagination{
@@ -1359,4 +1360,8 @@ i.home-product-item__like--active{
 } */
 .header__search-checkbox:checked ~ .header__search{
     display: flex;
+}
+
+.center{
+    text-align: center;
 }
